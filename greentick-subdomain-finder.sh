@@ -12,8 +12,8 @@ done
 echo "--------------------------------------------------------------";
 echo "Installing required tools";
 echo -e "--------------------------------------------------------------\n";
-#sh -c "sudo apt install amass subfinder ffuf httpx-toolkit naabu";
-#sh -c "sudo cp Resources/aquatone /usr/bin/aquatone";
+sudo apt install amass subfinder ffuf httpx-toolkit naabu &> /dev/null;
+sh -c "sudo cp Resources/aquatone /usr/bin/aquatone";
 echo "--------------------------------------------------------------";
 echo -e "--------------------------------------------------------------\n";
 
